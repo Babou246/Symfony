@@ -1,0 +1,18 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello AccountController!{% endblock %}
+
+{% block content %}
+    <h1>Mon Compte</h1>
+    -<a href="{{ path('account_password') }}"> Modifier mon mot de passe</a><br/>
+    -<a href="{{ path('account_address') }}"> Gerer mes addresses</a>
+    <p>
+        HOW IS THIS NANODEGREE PROGRAM STRUCTURED?
+        The Data Engineer Nanodegree program is comprised of content and
+        curriculum to support six (6) projects. We estimate that students can complete
+        the program in five (5) months working 10 hours per week.
+        Each project will be reviewed by the Udacity reviewer network. Feedback will
+        be provided and if you do not pass the project, you will be asked to resubmit
+        the project until it passes.
+    </p>
+{% endblock %}
